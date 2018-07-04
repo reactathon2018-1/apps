@@ -1,0 +1,107 @@
+db.jobDetails.insert([
+   {
+      "jobId":"102358",
+      "coreSkils": 'Java,Spring,Hibernate', 
+       "position": 'Analyst' , 
+       "location" :'Hyderabad,Chennai',
+	"noOfOpenings":"10" 
+   },
+	
+   {
+      "jobId":"102359",
+      "coreSkils": 'Java,Spring,Hibernate,Microservices', 
+      "position": 'Specialist' , 
+	"location" :'Hyderabad,Bangalore',
+	"noOfOpenings":"20"   
+   },
+ {
+      "jobId":"102360",
+      "coreSkils": 'C,C#,ASP.NET,SQL server', 
+       "position": 'Analyst' , 
+       "location" :'Hyderabad,Chennai,Pune',
+	"noOfOpenings":"5"     
+   },
+	
+   {
+      "jobId":"102361",
+      "coreSkils": 'C,C#,ASP.NET,SQL server', 
+      "position": 'Technical Lead' , 
+	"location" :'Hyderabad,Bangalore,Chennai' ,
+	"noOfOpenings":"5"   
+   },
+ {
+      "jobId":"102362",
+      "coreSkils": 'Java,Spring,Hibernate,Spring Boot', 
+       "position": 'Specialist' , 
+       "location" :'Hyderabad,Chennai' ,
+	"noOfOpenings":"7"  
+   },
+	
+   {
+      "jobId":"102363",
+      "coreSkils": 'Java,Spring,Hibernate,Microservices', 
+      "position": 'Specialist' , 
+	"location" :'Hyderabad,Bangalore'  ,
+	"noOfOpenings":"5" 
+   },
+{
+      "jobId":"102364",
+      "coreSkils": 'Java,Spring,Hibernate,Microservices,Java Design Patterns', 
+       "position": 'Technical Lead' , 
+       "location" :'Hyderabad,Chennai,Bangalore' ,
+	"noOfOpenings":"5"  
+   },
+	
+   {
+      "jobId":"102365",
+      "coreSkils": 'Java,Spring,Hibernate,Microservices,AWS cloud', 
+      "position": 'Specialist' , 
+	"location" :'Hyderabad,Bangalore,Kolkata',
+	"noOfOpenings":"8"   
+   },
+ {
+      "jobId":"102366",
+      "coreSkils": 'Java,Spring,Hibernate', 
+       "position": 'Analyst' , 
+       "location" :'Hyderabad,Chennai',
+	"noOfOpenings":"8"    
+   },
+	
+   {
+      "jobId":"102367",
+      "coreSkils": 'Java,Spring,Hibernate,Microservices,AWS Cloud', 
+      "position": 'Specialist' , 
+	"location" :'Hyderabad,Bangalore',
+	"noOfOpenings":"8"    
+   },
+{
+      "jobId":"102368",
+      "coreSkils": 'Java,Spring,Hibernate', 
+       "position": 'Analyst' , 
+       "location" :'Hyderabad,Chennai',
+	"noOfOpenings":"8"       
+   },
+	
+   {
+      "jobId":"102369",
+      "coreSkils": 'Java,Spring,Hibernate,Struts 2,Angular js', 
+      "position": 'Specialist' , 
+	"location" :'Hyderabad,Bangalore',
+	"noOfOpenings":"8"       
+   },
+ {
+      "jobId":"102370",
+      "coreSkils": 'Websphere admin,DB2 basics,AWS cloud ', 
+       "position": 'Technical Support Staff' , 
+       "location" :'Hyderabad,Chennai' ,
+	"noOfOpenings":"8"      
+   },
+	
+   {
+      "jobId":"102371",
+      "coreSkils": 'C,C#,ASP.NET,SQL server', 
+      "position": 'Specialist' , 
+	"location" :'Hyderabad,Bangalore' ,
+	"noOfOpenings":"8"      
+   },
+])

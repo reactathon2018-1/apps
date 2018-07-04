@@ -1,0 +1,14 @@
+{"fullName":"Kanchan Kumar",
+	"age":"30",
+	"candidateId":"7890232",
+	"qualification":"B.Tech",
+	"skills":"Java,J2EE",
+	"experience":"8",
+	"jobId":"102368",
+	"address":"hyderabad",
+	"email":"manisha.pradhan@vz.com",
+	"contactDetails":" ",
+	"mobileNo":"9848283423",
+	"_id" : "5b3b7768e86ad30684f6f689"
+
+}

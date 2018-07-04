@@ -1,0 +1,15 @@
+db.jobDetails.insert([
+   {
+      "jobId":"102356",
+      "coreSkils": 'Java,Spring,Hibernate', 
+      "posistion": 'Analyst' , 
+	"location" :'Hyderabad,Chennai'   
+   },
+	
+   {
+      "jobId":"102357",
+      "coreSkils": 'Java,Spring,Hibernate,Microservices', 
+      "posistion": 'Specialist' , 
+	"location" :'Hyderabad,Bangalore'   
+   },
+])

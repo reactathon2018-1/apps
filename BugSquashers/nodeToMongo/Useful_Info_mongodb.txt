@@ -1,0 +1,31 @@
+1. To start mongo server-->
+mongod --dbpath="C:\Users\Administrator\Documents\db"
+
+2. To start mongo client-->
+GO to path where mongo installed --> C:\Program Files\MongoDB\Server\4.0\bin
+mongo
+
+3. Command to use the DB-->
+use jobsDB
+
+4. Command to show tables -->
+show tables
+
+5. Commands to find data in table-->
+db.tableName.find()
+
+
+6. Command to start service-->
+Go to path --> C:\Users\Administrator\Documents\GitHub\Reactathon\nodeToMongo
+node findOrSaveCandidateRecord.js
+
+7. Services URLS-->
+http://localhost:8081/searchJobsDetails
+http://localhost:8081/getCandidateDetails
+http://localhost:8081/saveCandidateDetails
+
+
+
+
+
+

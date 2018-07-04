@@ -1,0 +1,2 @@
+git config --global user.email "rupesh.deo@verizon.com"
+git config --global user.name "BugSquashers"

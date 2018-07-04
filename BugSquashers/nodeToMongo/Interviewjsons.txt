@@ -1,0 +1,36 @@
+/saveInterviewSchedules
+
+{"jobId":"102368",
+	"date":"10-08-2018",
+	"time":"2PM",
+	"candidateId":"7890232", 
+	"interviewerName":"Ramesh Patel"}
+	
+/saveInterviewFeedback
+
+	{"jobId":"102368",
+	"interviewerFeedback":"Overall good and technically stron",
+	"candidateFeedback":"good",
+	"candidateId":"7890232", 
+	"status":"Selected"}
+
+/saveCandidateDocuments
+
+	{"jobId":"102368",	
+	"candidateId":"7890232",
+	"documentPath":"C:\\reactathon\\GRAPHQL_Important_Link.txt"}
+
+
+http://localhost:4000/graphql
+application/graphql
+
+query{
+  jobs {
+    jobId
+   
+  }
+  candidates{
+    candidateId
+  }
+}
+

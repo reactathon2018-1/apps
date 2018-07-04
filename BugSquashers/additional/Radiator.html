@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Radiator</title> 
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script> 
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script> 
+<script type="text/javascript"> 
+window.onload = function() { 
+	$("#chartContainer").CanvasJSChart({ 
+		title: { 
+			text: "Job Selection Process in Verizon",
+			fontSize: 24
+		}, 
+		axisY: { 
+			title: "Products in %" 
+		}, 
+		legend :{ 
+			verticalAlign: "center", 
+			horizontalAlign: "right" 
+		}, 
+		data: [ 
+		{ 
+			type: "pie", 
+			showInLegend: true, 
+			toolTipContent: "{label} <br/> {y} %", 
+			indexLabel: "{y} %", 
+			dataPoints: [ 
+				{ label: "Selected",  y: 30.3, legendText: "Selected"}, 
+				{ label: "Inprogress",    y: 60.7, legendText: "Inprogress"  }, 
+				{ label: "Not Selected",   y: 9,  legendText: "Selected" }, 
+				
+			] 
+		} 
+		] 
+	}); 
+} 
+</script> 
+</head> 
+<body> 
+<div id="chartContainer" style="width: 100%; height: 300px"></div> 
+</body> 
+</html>

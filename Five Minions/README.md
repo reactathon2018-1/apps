@@ -16,4 +16,4 @@ React, Redux, GraphQL, NodeJS, MongoDB
 
 
 ## Live Demo:
-[Click here]{http://minions.cfapps.io/} for live demo: 
+[Click here]{http://minnions.cfapps.io/} for live demo: 

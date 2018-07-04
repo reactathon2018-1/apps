@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
   class CommentBox extends Component {
-    
+        
     handleCommentSubmit(comment) {
       this.props.data.push(comment);
       var comments = this.state.data;
       var newComments = comments.concat([comment]);
-      this.setState({data: newComments});
     }
 
     render() {
@@ -18,6 +18,7 @@ import React, { Component } from 'react';
       );
     }
   };
+
 
   class CommentList extends Component {
   
@@ -52,7 +53,11 @@ import React, { Component } from 'react';
         return;
       }
 
-      this.props.onCommentSubmit({author: authorVal, text: textVal});
+      axios.post('http://localhost:9300/feedbackFromCandidate', {'emailId' : 'sevak.singh@gmail.com', 'msg': `${textVal}`})     
+      .then(res => {
+        const profileData = res.data[0];
+      }) 
+      //this.props.onCommentSubmit({author: authorVal, text: textVal});
       e.target[0].value = '';
       e.target[1].value = '';
       return;

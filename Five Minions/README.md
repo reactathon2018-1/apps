@@ -1,11 +1,10 @@
-Five Minions – Candidate Portal
+# Five Minions – Candidate Portal
 
-
-
-Technologies used:
+## Technologies used:
 React, Redux, GraphQL, NodeJS, MongoDB
 
-Functionalities:
+## Functionalities:
+
 1.	User can view the list of jobs he has applied.
 2.	User can view the status of the job position that he/she applied.
 3.	Provides a timeline based view of the various interview schedules.
@@ -16,5 +15,5 @@ Functionalities:
 8.	User can provide feedback on his overall experience with the hiring process.
 
 
-Live Demo:
-Click here for live demo: minions.cfapps.io
+## Live Demo:
+[Click here]{http://minions.cfapps.io/} for live demo: 

@@ -1,0 +1,35 @@
+.nav-menu-name {
+  color: white;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.badge {
+  color:white;
+}
+
+.bronze {
+  background-color: #CD7F32;
+}
+
+.silver {
+  background-color: #C0C0C0;
+  color: #000000;
+}
+
+.gold {
+  background-color: #D4AF37;
+}
+
+.platinum {
+  background-color: #CECECE;
+  color: #000000;
+}
+
+.badge-container{
+  text-align: center;
+}
+
+.badge-admin{
+  background-color: #4368b2;
+}

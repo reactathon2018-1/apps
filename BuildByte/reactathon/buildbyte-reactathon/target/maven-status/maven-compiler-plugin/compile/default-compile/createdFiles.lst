@@ -1,0 +1,10 @@
+com\buildbyte\dto\JobDetailsDTO.class
+com\buildbyte\dto\UserRequestDTO.class
+com\buildbyte\dto\JobDTO.class
+com\buildbyte\BuildByteController.class
+com\buildbyte\App.class
+com\buildbyte\dao\UserDAO.class
+com\buildbyte\dto\UserResponseDTO.class
+com\buildbyte\dto\AppliedJobDetailsDTO.class
+com\buildbyte\dto\JobRequestDTO.class
+com\buildbyte\dao\JobsDAO.class

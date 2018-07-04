@@ -12,11 +12,11 @@ import CommentBox from './comments.js'
 //Todo - get from service
 var commentData = [
   { 
-    author:"Siva(Recruiter)", 
+    author:"Vijitha(Recruiter)", 
     text:"I've recieved your feedback"
   },
   { 
-    author:"Nidhi", 
+    author:"Sevak", 
     text:"I would like to know more about the upcoming rounds" 
   }
 ];

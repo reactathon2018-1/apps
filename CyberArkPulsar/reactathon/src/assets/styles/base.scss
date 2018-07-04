@@ -1,0 +1,147 @@
+$pe-7s-font-path: "~pe7-icon/dist/fonts" !default;
+@import 'base/new_variables';
+@import 'base/variables';
+@import 'base/mixins';
+
+@import "~pe7-icon/dist/scss/pe-icon-7-stroke.scss";
+@import 'base/chartist';
+@import "~chartist/dist/scss/chartist.scss";
+@import 'base/sidebar';
+@import 'base/navbar';
+@import 'base/card';
+@import 'base/todos';
+@import 'base/checkbox-radio-switch';
+@import 'base/footer';
+@import 'base/buttons';
+@import 'base/pagination';
+@import 'base/social-buttons';
+@import 'base/icons';
+@import 'base/panels';
+@import 'base/typography';
+@import 'base/form';
+@import 'base/tags';
+@import 'react-dates/styles';
+
+html, body {
+  font-size: 14px;
+}
+.sidebar .brand .logo {
+  width: 76%;
+  margin-right: 9px;
+  /* height: 3%; */
+}
+.sidebar .sidebar-wrapper {
+  background-color: #383846;
+  height: calc(100vh - 64px);
+  overflow: auto;
+}
+body, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple, .alert, a, .td-name, td, button.close {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: Verdana;
+    font-weight: 700;
+}
+.navbar {
+   margin-bottom: 0px;
+}
+a {
+  color: #337ab7;
+}
+.main-panel {
+  background-color: white;
+}
+.card .header {
+  padding: 15px 30px 11px;
+  font-weight: 600;
+  font-size: 22px;
+}
+.card {
+  border: 1px solid #c1bebe;
+  border-radius: 24px;
+  margin-bottom: 30px;
+  background: white;
+  color: black;
+}
+.sidebar .brand {
+  height: 100px;
+}
+.card .header h1, .card .header h2, .card .header h3, .card .header h4, .card .header h5, .card .header h6 {
+  color:black;
+}
+.card .title {
+  color: black;
+}
+.card .form-group label.control-label, .card fieldset label.control-label {
+  color: black;
+  text-transform: uppercase;
+}
+.card .form-group label, .card fieldset label {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.navbar .navbar-nav > li > a {
+  padding: 28px 25px;
+  color: black;
+  
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.places-buttons .btn {
+  margin-bottom: 30px;
+}
+
+.rbc-calendar {
+  .rbc-toolbar .rbc-toolbar-label {
+    font-size: 22px;
+  }
+  .rbc-toolbar {
+    margin-bottom: 25px;
+  }
+  .rbc-toolbar button {
+    @include btn-styles($primary-bg, $primary-states-color);
+    &.rbc-active,
+    &.rbc-active:hover,
+    &:active,
+    &:focus,
+    &:hover,
+    &:active:hover {
+      background-color: lighten($primary-bg, 25%);
+      border-color: $primary-bg;
+    }
+  }
+  .rbc-month-row {
+    min-height: 100px;
+  }
+  .rbc-row-segment {
+    padding: 2px;
+    .rbc-event {
+      background: $primary-bg;
+    }
+    .rbc-event.rbc-selected {
+      background: darken($primary-bg, 5);
+    }
+    .rbc-event-content {
+      font-size: 12px;
+    }
+
+  }
+  .rbc-time-view,
+  .rbc-month-view,
+  .rbc-agenda-view {
+    border-radius: 3px;
+  }
+}
+
+.ct-chart-line .ct-label, .ct-chart-bar .ct-label {
+  font-size: 1rem;
+}
+
+.react-bs-table {
+  .table {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,13 @@
+{
+
+		"port": 9300,
+	"db": {
+		"url": "mongodb://localhost:27017/config",
+		"options": {
+			"useMongoClient": true
+		}
+	},
+	"log" : {
+        "fileLocation" : "./logs/"
+    }
+}

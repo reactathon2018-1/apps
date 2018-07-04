@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.title-image {
+  background-image: url("./images/work.png");
+  background-repeat: no-repeat;
+  background-size: 1350px 320px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.profileImg {
+  background-image: url("./images/john.png");
+}
+
+#app {
+  padding: 20px;
+}
+.comment-form {
+  width: 500px;
+}
+.comment-form .input-group {
+  margin: 10px 0; 
+}
+.comment-section {
+  width: 100%;
+  background-color: #F0F8FF !important;
+}
+.file-upload {  
+  background-color: #F0F8FF !important;
+}
+.profile {  
+  background-color: #F0F8FF !important;
+}
+
+.jumbotron {  
+  margin-bottom: 0rem !important;
+}
+.navbar-dark .navbar-nav .nav-link {  
+  color: white !important;
+  font-weight: bold;
+}
+
+.bkcolor {
+  background-color: darkgray !important;
+}

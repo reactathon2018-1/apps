@@ -1,0 +1,13 @@
+use ReactiveAppDB;
+
+
+db.jobs.insertOne({
+  "jobCode" : "VZ-RNJS1",
+  "band" : "2",
+  "location" : "Hyderabad",
+  "Exp" : "1-2 yrs",
+  "Skillset" : "React Js, Node Js",
+  "InterviewType" : "F2F",
+  "OpenDate" : "02/07/2018",
+  "CloseDate" : "02/08/2018"
+});

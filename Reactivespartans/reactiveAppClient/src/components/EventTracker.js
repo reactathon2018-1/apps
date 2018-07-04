@@ -9,7 +9,7 @@ function EventTracker(props) {
     <div>
       <h2>Recent Updates</h2>
       <Timeline>
-                <TimelineEvent title="Siva sent a SMS"
+                <TimelineEvent title="Sevak sent a SMS"
                     createdAt="2018-07-06 10:06 PM"
                     icon={<i/>}
                 >
@@ -23,7 +23,7 @@ function EventTracker(props) {
                 Welcome to Onboarding
                 </TimelineEvent>
                 <TimelineEvent
-                    title="Msg from siva"
+                    title="Msg from Sevak"
                     createdAt="2018-07-07 10:06 AM"
                     icon={<i />}
                 >

@@ -1,0 +1,24 @@
+.vertical-timeline-element-content{
+    background: #d6f5d7;
+}
+.vertical-timeline::before{
+    background: #000;
+}
+
+
+.vertical-timeline-element-content .vertical-timeline-element-date{
+    left:150%;
+    font-size:2rem
+}
+
+.vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date{
+    right:150%;
+}
+ .vertical-timeline-element-content::before{
+    border-left-color:#000
+  
+}
+
+.vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content::before{
+    border-right-color:#000
+}

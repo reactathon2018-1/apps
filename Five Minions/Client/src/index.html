@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React + Redux - User Registration and Login Example & Tutorial</title>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" />
+    <style>
+        a { cursor: pointer; }
+        .help-block { font-size: 12px; }
+        .box-title{font-size: 22px !important;
+    font-weight: 600;}
+    </style>
+    <script src="https://use.fontawesome.com/581d5d54d2.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.js"></script>
+  
+</head>
+<body>
+    <div id="app" style="background: #ecf0f5; min-height: 974px;"></div>
+    <div id="d1"  style="visibility:visible; position:fixed; bottom: 0;right: 0;width:350px;height:430px"><span>
+        <i class="fa fa-compress" onClick="max()" style="color:white;font-size:25px;position: absolute;top:25px;right:20px;z-index:301"></i></span>
+    <iframe
+    id="i1"
+    width="350"
+    height="430"
+    style="z-index: 300; position:fixed; bottom: 0;right: 0"
+    src="https://console.dialogflow.com/api-client/demo/embedded/46d73af7-21bf-4af4-bd2e-7d34fb5cb716">
+</iframe>
+</div>
+<script type="text/javascript">
+ 
+ max()
+     
+    function max()
+    {
+    if(document.getElementById("d1").style.bottom=="0px"){
+        document.getElementById("d1").style.bottom="-350px";
+        document.getElementById("i1").style.bottom="-350px";
+    }
+    else{
+        document.getElementById("d1").style.bottom="0px"
+        document.getElementById("i1").style.bottom="0px"
+        document.getElementById("i1").focus();
+    }
+       
+       
+    }	
+    </script>
+</body>
+</html>
